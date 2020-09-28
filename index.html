@@ -180,6 +180,43 @@
             <!--        </tr>-->
 
             <!--    </table>-->
+            <br><br>
+            <h4> MSAM model </h4>
+            <table class="table table-striped table-bordered">
+                <caption>The figure describing the proposed Multimodal Self Attention Model (MSAM) for the laughter detection task. We obtain features of each joint dialogue turn using Multimodal Self attention network. We then obtain the final feature vector using a sequential network before feeding the resultant vector to the binary classifier.</caption>
+                <tr>
+                    <td width="60%">
+                        <img align="center" src="assets/m.png" width="100%">
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <h4> Qualitative results </h4>
+            <table class="table table-striped table-bordered">
+                <caption>
+                    Randomly sampled results (MSAM model) of each prediction category, (correct/incorrect) x (humor/non-humor). Eg. Humor label in a red box means ground truth label was non-humor but predicted label was humor.
+
+                </caption>
+                <tr>
+                    <td>
+                        <img align="center" src="assets/q.png" width="100%">
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            <h4> Explaining humor </h4>
+            <table class="table table-striped table-bordered">
+                <caption>
+                    The left column shows visualization of attention at the word level and the right column shows attention visualization at turn level.
+                </caption>
+                <tr>
+                    <td>
+                        <img align="center" src="assets/c.png" width="100%">
+                    </td>
+                </tr>
+            </table>
 
             <br><br>
             <h4> Baseline Models </h4>
